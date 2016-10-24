@@ -13,6 +13,8 @@ import org.junit.rules.ExpectedException;
 /**
  * A load of tests for the Compilers Assignment 1 Task 1
  * 
+ * This has to be put in the same package as the Lexer.java class
+ *
  * It is strongly recommended that you write some of your own tests too.
  * WARNING:
  * These tests are made from my interpretation of the assignment

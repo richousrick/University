@@ -15,6 +15,8 @@ import org.junit.rules.ExpectedException;
  * 
  * This has to be put in the same package as the Lexer.java class
  *
+ * Feel free to share this with whoever you want to.
+ *
  * It is strongly recommended that you write some of your own tests too.
  * WARNING:
  * These tests are made from my interpretation of the assignment
@@ -25,16 +27,6 @@ import org.junit.rules.ExpectedException;
  */
 public class LexerTests {
 
-	
-	/*
-	 * parts separated by whitespace
-	 */
-	
-	/* questions
-	 * does null / uninitialised / whitespace = error
-	 * 
-	 */
-	
 	Lexer lexer; 
 	Random random;
 	ArrayList<String> terms;

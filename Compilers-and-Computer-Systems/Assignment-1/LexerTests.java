@@ -13,8 +13,15 @@ import org.junit.rules.ExpectedException;
 /**
  * A load of tests for the Compilers Assignment 1 Task 1
  * 
+ * README
+ *
  * This has to be put in the same package as the Lexer.java class
  *
+ * This tests for the character \v, which is no longer required in the spec, 
+ * this makes no difference if you passed the tests, however if you failed any that mention \v
+ * you should not worry. unless it is in testAllTermsIndentifiersIntegersWithAllEscapeCharactersRandomOrder()
+ * where you should remove ', "\013"' from line 1692, and try again to make sure you pass this test.
+ * 
  * Feel free to share this with whoever you want to.
  *
  * It is strongly recommended that you write some of your own tests too.

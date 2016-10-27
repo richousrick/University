@@ -334,7 +334,7 @@ public class LexerTests {
 		/* INTEGER SIZE */
 			
 			/**
-			 * test compiling with value Integer.MAX_VALUE +1
+			 * test compiling with value {@link Integer#MAX_VALUE} +1
 			 */
 			@Test
 			public void testTooLargeInteger(){
@@ -342,7 +342,7 @@ public class LexerTests {
 			}
 			
 			/**
-			 * test compiling with value Integer.MAX_VALUE
+			 * test compiling with value {@link Integer#MAX_VALUE}
 			 */
 			@Test
 			public void testMaxInteger(){
